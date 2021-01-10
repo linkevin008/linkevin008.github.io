@@ -1,8 +1,6 @@
 /*
 
-The Town
-
-https://templatemo.com/tm-525-the-town
+adapted from the town template from templatemo
 
 */
 
@@ -133,7 +131,7 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/background.jpeg);
+  background-image: url(../img/background.JPEG);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;

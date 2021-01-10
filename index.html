@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
     <!--
-	template from templatemo
-	-->
+	template from template mo
+  -->
+  <!-- TODO primary: Experiences, double grid setup -->
   </head>
   <body>    
     <!-- Hero section -->
@@ -38,7 +39,7 @@
                   <a class="nav-link tm-nav-link" href="#work">Experiences</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#contact">Projects</a>
+                  <a class="nav-link tm-nav-link" href="#contact">Contact</a>
               </li>                    
             </ul>
           </div>        
@@ -72,31 +73,37 @@
             <div class="tm-intro-text-container">
                 <h2 class="tm-text-primary mb-4 tm-section-title">A little about me...</h2>
                 <p class="mb-4 tm-intro-text">
-                  My name is Kevin Lin. 
+                  My name is Kevin Lin.
+                  <br/><br/>
+                  I graduated McGill University with a major in Software Engineering and a minor in
+                  Microbiology and Immunology. I have a strong passion for technology as well as medicine.
+                  <br/><br/>
+                  In my freetime, I like to golf, relax with friends, and learn something new.
               </p>
-                <p class="mb-5 tm-intro-text">
-                  Please tell your friends about our site 
-                  <a rel="nofollow" href="https://templatemo.com">templatemo</a>. Thank you.
-                  Curabitur dapibus tristique enim a imperdiet. Etiam
-              tristique sem sed condimentum posuere. </p>
-                <div class="tm-next">
+              <!-- button for "read more" -->
+                <!-- <div class="tm-next">
                   <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
-                </div>
+                </div> -->
             </div>
           </div>
         </div>
-
-        <div class="row tm-section-pad-top">
-          <div class="col-lg-4">
-            <i class="fas fa-4x fa-bus text-center tm-icon"></i>
-            <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
-            <p>
-              Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
-              nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
-              Duis imperdiet lacus justo.
-            </p>
-          </div>
         
+        
+        <div class="row tm-section-pad-top">
+          <!-- TODO: put this part for projects and experiences -->
+          <div class="exp-container">
+            <div class="Logo"> logo
+              <!-- <img src="img/IBM.jpg"> -->
+            </div>
+            <div class="Text">
+              <h4 class="text-center tm-text-primary mb-4">IBM</h4>
+              <p>
+                Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida
+                nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus.
+                Duis imperdiet lacus justo.
+              </p>
+            </div>
+          </div>
         <div class="col-lg-4 mt-5 mt-lg-0">
           <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>
           <h4 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
@@ -121,7 +128,7 @@
       <div class="container tm-container-gallery">
         <div class="row">
           <div class="text-center col-12">
-              <h2 class="tm-text-primary tm-section-title mb-4">Our Work</h2>
+              <h2 class="tm-text-primary tm-section-title mb-4">Projects</h2>
               <p class="mx-auto tm-work-description">
                 "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut
                 porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus
@@ -209,49 +216,29 @@
       <div class="container tm-container-contact">
         <div class="row">
             <div class="col-12">
-                <h2 class="mb-4 tm-section-title">Contact Us</h2>
+                <h2 class="mb-4 tm-section-title">Contact</h2>
                 <div class="mb-5 tm-underline">
                   <div class="tm-underline-inner"></div>
                 </div>
-                <p class="mb-5">
-                  Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
-                  non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
-                  viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
-                  at at velit.
-                </p>
-            </div>
-            
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="tel:0100200340" class="tm-contact-item-link">
-                  <i class="fas fa-3x fa-phone mr-4"></i>
-                  <span class="mb-0">010-020-0340</span>
-              </a>              
             </div>
             <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="mailto:info@company.co" class="tm-contact-item-link">
+              <a href="mailto:linkevin008@gmail.com" class="tm-contact-item-link">
                   <i class="fas fa-3x fa-envelope mr-4"></i>
-                  <span class="mb-0">info@company.co</span>
+                  <span class="mb-0">linkevin008@gmail.com</span>
               </a>              
             </div>
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+            <!-- add linkedin and github links? -->
+            <!-- <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
               <a href="https://www.google.com/maps" class="tm-contact-item-link">
                   <i class="fas fa-3x fa-map-marker-alt mr-4"></i>
                   <span class="mb-0">Location on Maps</span>
               </a>              
-            </div>
-            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <form action="" method="get">
-                <input name="email" type="email" placeholder="Subscribe your email" class="tm-input" required />
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
-              </form>
-            </div>
+            </div> -->
         </div>
       </div>
       <footer class="text-center small tm-footer">
           <p class="mb-0">
-            Copyright &copy; 2019 Company Name 
-            
-            - Design: <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+            Design from Template Mo
           </p>
         </footer>
     </section>

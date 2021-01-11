@@ -237,6 +237,16 @@ a:focus {
 
 /* Experiences */
 
+.exp-banner {
+  width: 100%;
+}
+
+.exp-title {
+  font-size: 2.6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
 .exp-container {
   display: grid;
   grid-template-columns: 0.7fr 1.3fr;
@@ -246,7 +256,18 @@ a:focus {
     "Logo Text";
 }
 
-.Logo { grid-area: Logo; }
+.experience-logo {
+  width: 300px;
+  padding: 25px;
+}
+
+.Logo { 
+  grid-area: Logo; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 .Text { grid-area: Text; }
 
@@ -557,6 +578,8 @@ p {
     margin-top: 20px;
   }
 }
+
+
 
 @media (max-width: 767px) {
   .tm-btn-submit {
